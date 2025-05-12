@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HttpClients\HttpClients.csproj" />
+    <ProjectReference Include="..\PagesResponces\PagesResponses.csproj" />
+    <ProjectReference Include="..\University.Application\University.Application.csproj" />
+    <ProjectReference Include="..\University.Core\University.Core.csproj" />
+    <ProjectReference Include="..\University.Persistense\University.Persistence.csproj" />
+    <ProjectReference Include="..\WebApi.Exceptions\WebApi.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>
